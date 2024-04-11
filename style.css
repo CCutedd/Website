@@ -61,21 +61,71 @@
     font-weight: bold;
     text-align: center;
     padding:20px;
+    margin-top: 30px;
 }
 .image {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 60px;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 .subimage {
     border:solid;
     border-color: #3882f6;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     border-radius: 10px;
 }
 .imageintro {
     text-wrap: wrap;
-    width: 50px;
+    width: 150px;
     text-align: center;
+}
+.sentence {
+   padding-top: 150px;
+   padding-bottom: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   background-color: #E5E7EB; 
+}
+#quote {
+    text-align: left;
+    text-wrap: wrap;
+    width: 780px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-family: arial, helvetica, sans-serif;
+}
+#name {
+    text-align: right;
+    width: 780px;
+    font-weight: bold;
+}
+.sign {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    margin: 100px;
+    background-color: #3882F6;
+    padding:100px;
+    color:#f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-shrink:0;
+}
+#action {
+    font-weight:bold;
+    font-size: 20px;
+}
+#signup {
+    border-style:solid;
+    border-color:#f9faf8;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: left 20px right 20px top 5px bottom 5px;
 }
