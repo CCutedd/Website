@@ -87,18 +87,18 @@
     text-align: center;
 }
 .s4 {
-   align-self:baseline;
-   padding-top: 150px;
-   padding-bottom: 150px;
+   align-self: stretch;
    display: flex;
-   flex-direction: column;
+   flex-direction: column;   
    gap: 10px;
    background-color: #E5E7EB; 
+   align-items: center;
 }
-#quote {
+
+#sentence {
+    height:300px;
+    width:500px;
     text-align: left;
-    text-wrap: wrap;
-    width: 780px;
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
@@ -106,24 +106,26 @@
 }
 #name {
     text-align: right;
-    width: 780px;
+  
     font-weight: bold;
 }
 .s5 {
-    align-self:stretch;
+    align-self: stretch;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 100px;
+    justify-content: center;
     background-color: #3882F6;
-    padding:100px;
+    margin:50px;
+    padding: 50px;
+    max-width: 600px;
+    gap:50px;
     color:#f9faf8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-shrink:0;
+   
 }
 #action {
     font-weight:bold;
     font-size: 20px;
+
 }
 #signup {
     border-style:solid;
@@ -132,4 +134,15 @@
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: left 20px right 20px top 5px bottom 5px;
+    text-decoration: none;
+    color:#f9faf8;
+    text-align: center;
+}
+.s6 {
+    align-self: center;
+    text-align: center;
+    background-color: #1f2937;
+    color:#f9faf8;
+    padding: 20px;
+    font-size: 20px;
 }
